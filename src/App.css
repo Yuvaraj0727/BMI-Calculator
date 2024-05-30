@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poetsen One", sans-serif;
+  letter-spacing: 2px;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+}
+
+.bmicontainer{
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(230, 223, 214);
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(209, 29, 59);
+  display: flex;
+}
+
+.box{
+  width: 500px;
+
+}
+
+.box img{
+  position: relative;
+  top: 70px;
+  left: 30px;
+  width: 400px;
+  height: 300px;
+}
+
+.data{
+  flex:1;
+  padding: 15px;
+
+}
+
+h1{
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  text-decoration: uppercase;
+  color:rgb(209, 29, 59);
+  text-align: center;
+}
+
+.inputcontainer{
+  margin-bottom: 15px;
+  
+}
+
+label{
+  display: block;
+  margin-bottom:8px ;
+  color:rgb(111, 152, 198);
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font: 18px;
+}
+
+button{
+  color:whitesmoke;
+  background-color: rgb(42, 74, 150);
+  padding: 10px 20px;
+  border: none solid #eee;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  transition: background-color 0.7s;
+  cursor: pointer;
+}
+
+button:hover{
+  color: whitesmoke;
+  background-color:  rgb(79, 118, 203);
+
+}
+
+.clear{
+  background-color:rgb(215, 36, 36);
+  margin-left: 10px ;
+  
+}
+
+.clear:hover{
+  background-color: red;
+}
+
+.result{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid  cadetblue;
+  border-radius: 5px;
+}
+
+.result p{
+  margin: 10px 0;
+  color:chocolate;
+
+}
+
+.result p:first-child{
+  color: rgb(240, 113, 22);
+  font-weight: bold;
+}
+
+
+.error{
+  color:red;
+  font-size: 12px;
+  margin-bottom: 10px;
+
+}
